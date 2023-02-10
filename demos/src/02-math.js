@@ -24,14 +24,12 @@ function cylinderVol(r, a) {
 }
 
 function promedio(array) {
-  if (array.length === 0) return null
+  if (array.length === 0) return null;
 
-  const sum = array.reduce( (previous, current) => { return previous + current })
+  const sumNumbers = array.reduce((previous, current) => previous + current);
 
-  return sum / array.length
+  return sumNumbers / array.length;
 }
-
-
 
 module.exports = {
   sum,
